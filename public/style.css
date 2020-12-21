@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+#containerTitulo {
+    height: 150px;
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#container {
+    height: 400px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#getQuote {
+    align-self: center;
+    height: 40px;
+    width: 150px;
+    background-color: whitesmoke;
+    font-style: normal;
+    font-size: 20px;
+    font-family: monospace;
+    color: tomato;
+    outline: 0px;
+
+}
+#quote{
+    padding-left: 20px;
+    padding-right: 30px;
+    text-justify: distribute;
+    justify-content: left;
+    text-align: center;
+}
+
+#author{
+    text-align: right;
+    padding-right: 30px;
+}
+
+#loader{
+    display: none;
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    z-index: 1000;
+    height: 31px;
+    width: 31px;
+
+}
+.loader {
+    border: 16px rgb(20, 20, 20); /* Light grey */
+    border-top: 16px solid rgb(153, 84, 84);
+    border-bottom: 16px solid rgb(153, 84, 84); /* red */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    top: 50px;
+    
+    
+ }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
